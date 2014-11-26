@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" 
     android:background="@color/theme">
     
+    <com.facebook.widget.LoginButton
+        android:id="@+id/authButton"
+        android:layout_width="300dip"
+        android:layout_height="50dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="25dp"
+        android:onClick="LoginWithFb"
+        />
 
-</LinearLayout>
+    <Button
+        android:id="@+id/emailSignUp"
+        android:layout_width="300dip"
+        android:layout_height="50dip"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="235dp"
+        android:textColor="@color/whiteText"
+        android:text="@string/sign_In_Email" />
+
+</RelativeLayout>

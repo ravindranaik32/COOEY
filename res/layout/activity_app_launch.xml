@@ -6,24 +6,80 @@
     android:background="@color/theme"
     android:gravity="center"
     android:orientation="horizontal" >
-
-    <Button
-        android:layout_width="wrap_content"
+    
+    <TableLayout android:background="@color/whiteText"
+        android:gravity="center"
+        android:stretchColumns="field"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp">
+        
+        <TableRow android:background="@color/whiteText" >
+            <EditText android:background="@null"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="20dip"
+           	android:hint="@string/username"
+            android:inputType="none"
+            android:padding="4dip" />
+        </TableRow>
+        <TableRow android:background="@color/whiteText" >
+            <EditText android:layout_width="fill_parent"
+            android:inputType="textPassword"
+            android:layout_marginLeft="20dip"
+            android:background="@null"
+            android:layout_height="40dip"
+            android:hint="@string/password"
+            android:padding="4dip" />
+        </TableRow>
+    </TableLayout>
+    
+    <TableLayout android:id="@id/buttons"
+        android:gravity="center"
+        android:layout_marginTop="100dip"
+        android:stretchColumns="field"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/button1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="95dp"
-        android:onClick="Register"
-        android:text="@string/register" />
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent">
+        
+        <TableRow  >
+            <Button android:layout_width="300dip"
+                android:layout_height="40dip"
+                android:layout_marginLeft="25dip"
+                android:background="@color/SignInButton"
+                android:onClick="Login"
+                android:textColor="@color/whiteText"
+                android:text="@string/login"/>
+        </TableRow>
+         <TableRow  >
+            <Button android:layout_width="300dip"
+                android:layout_height="40dip"
+                android:layout_marginLeft="25dip"
+                android:background="@android:color/transparent"
+                android:onClick="forgotPassword"
+                android:textColor="@color/whiteText"
+                android:text="@string/forgot"/>
+        </TableRow>
+        
+        
+    </TableLayout>
+    
+    <TableLayout android:gravity="center"
+        android:layout_marginTop="300dip"
+        android:stretchColumns="field"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="123dp"
-        android:onClick="Login"
-        android:text="@string/login" />
-
+        android:layout_width="fill_parent">
+         
+        <TableRow  >
+            <Button android:layout_width="300dip"
+                android:layout_height="40dip"
+                android:layout_marginLeft="25dip"
+                android:background="@android:color/transparent"
+                android:onClick="Register"
+                android:textColor="@color/whiteText"
+                android:text="@string/register"/>
+        </TableRow>
+         
+        
+    </TableLayout>
+  
+     
 </RelativeLayout>

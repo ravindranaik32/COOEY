@@ -2,8 +2,16 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <string name="app_name">COOEY</string>
-    <string name="login">Login</string>
-    <string name="register">Register</string>
-    <color name="theme">#C0C0C0 </color>
-
+    <string name="login">Sign In</string>
+    <string name="register">Create an Account</string>
+    <string name="forgot">Lost your password?</string>
+    <color name="theme">#60AFDF </color>
+    <string name="sign_up_with_email">Sign up with Email</string>
+    <string name="facebook_app_id">1511752785741308</string>
+    <string name="sign_In_FB">Sign In with FaceBook</string>
+    <string name="sign_In_Email">Sign In with Email</string>
+    <string name="username">Username or Email</string>
+    <string name="password">Password</string>
+	<color name="whiteText">#FFFFFF</color>
+	<color name="SignInButton">#3299CC</color>
 </resources>
