@@ -12,7 +12,6 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="100dp"
         android:layout_marginLeft="25dp"
-        android:onClick="LoginWithFb"
         />
 
     <Button
@@ -22,6 +21,9 @@
         android:layout_marginLeft="25dp"
         android:layout_marginTop="235dp"
         android:textColor="@color/whiteText"
+        android:background="@color/SignInButton"
+        android:onClick="SignUpWithEmail"
         android:text="@string/sign_In_Email" />
+    	
 
 </RelativeLayout>

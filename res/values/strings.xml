@@ -1,17 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
+	
+		<!--App launch strings -->
     <string name="app_name">COOEY</string>
     <string name="login">Sign In</string>
     <string name="register">Create an Account</string>
     <string name="forgot">Lost your password?</string>
-    <color name="theme">#60AFDF </color>
+    
+    <!-- Register step 1 strings  -->
+    
     <string name="sign_up_with_email">Sign up with Email</string>
     <string name="facebook_app_id">1511752785741308</string>
     <string name="sign_In_FB">Sign In with FaceBook</string>
     <string name="sign_In_Email">Sign In with Email</string>
     <string name="username">Username or Email</string>
     <string name="password">Password</string>
-	<color name="whiteText">#FFFFFF</color>
+    
+     <!--  Register step 2 strings --> 
+	
+	<string name="firstName">First name</string>
+	<string name="lastName">Last name</string>
+	<string name="city">City</string>
+	<string name="country">Country</string>
+	<string name="address">Address</string>
+	<string name="mobile">Phone number</string>
+	<string name="email">Email ID</string>
+	<string name="age">Age</string>
+	<string name="submit">Sign up</string>
+	
+	<!--  Color codes for app  --> 
+	<color name="theme">#60AFDF </color>
+    <color name="hashColor">#CCCACB</color>
+    <color name="whiteText">#FFFFFF</color>
 	<color name="SignInButton">#3299CC</color>
 </resources>

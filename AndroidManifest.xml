@@ -25,6 +25,7 @@
         </activity>
         
         <activity android:name=".loginscreen"></activity>
+        <activity android:name=".register"></activity>
         <meta-data android:value="@string/facebook_app_id" android:name="com.facebook.sdk.ApplicationId"/>
     </application>
 

@@ -3,8 +3,7 @@ package com.biz.cooey;
 import com.facebook.android.Facebook;
 
 import android.app.ActionBar;
-import android.app.Activity;
-import android.content.SharedPreferences;
+import android.content.Intent;
 import android.support.v4.app.FragmentActivity;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -17,9 +16,9 @@ import android.os.Bundle;
 
 
 
-public class MainActivity extends FragmentActivity{
+public class loginscreen extends FragmentActivity{
 	
-	 private String TAG = "MainActivity";
+	
 	 
     
 	public View onCreateView(LayoutInflater inflater, 
@@ -63,7 +62,18 @@ public class MainActivity extends FragmentActivity{
 	        return super.onOptionsItemSelected(item);
 	    }
 
-	 public void LoginWithFb(){
+	 public void SignUpWithEmail(View view){
+		 
+		 try
+		 {
+			 Intent newUser = new Intent(getApplicationContext(), register.class);
+		     startActivity(newUser);
+		 }
+		 catch(Exception ex)
+		 {
+			System.out.println(ex.getMessage()); 
+		 }
+		 
 		 
 		 
 	 }

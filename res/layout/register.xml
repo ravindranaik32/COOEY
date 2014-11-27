@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/theme" >
+    
+    <TableLayout android:background="@color/hashColor"
+         android:gravity="center"
+        android:stretchColumns="field"
+        android:layout_marginTop="80dip"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+        <TableRow android:background="@color/whiteText">
+            <EditText android:id="@id/firstName"
+            android:background="@null"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="20dip"
+           	android:hint="@string/firstName"
+           	android:nextFocusDown="@id/lastName"
+            android:inputType="none"
+            android:padding="4dip" />
+           </TableRow>
+            <TableRow android:background="@color/whiteText" android:layout_marginTop="1dip">
+                 <EditText android:id="@id/lastName"
+            	android:background="@null"
+            	android:layout_width="fill_parent"
+            	android:layout_height="40dip"
+            	android:layout_marginLeft="20dip"
+           		android:hint="@string/lastName"
+           		android:nextFocusDown="@id/email"
+            	android:inputType="none"
+            	android:padding="4dip" />
+            </TableRow>
+            
+        
+        <TableRow android:background="@color/whiteText" android:layout_marginTop="1dip">
+            <EditText android:id="@id/email"
+            android:background="@null"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="20dip"
+           	android:hint="@string/email"
+           	android:nextFocusDown="@id/mobile"
+            android:inputType="none"
+            android:padding="4dip" />
+             </TableRow>
+             
+        <TableRow android:background="@color/whiteText" android:layout_marginTop="1dip">
+             <EditText android:background="@null"
+            android:nextFocusDown="@id/address"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="20dip"
+           	android:hint="@string/mobile"
+            android:inputType="none"
+            android:padding="4dip" />
+             </TableRow>
+       
+        
+        <TableRow android:background="@color/whiteText" android:layout_marginTop="1dip">
+            <EditText android:background="@null"
+            android:nextFocusDown="@id/city"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="20dip"
+           	android:hint="@string/address"
+            android:inputType="none"
+            android:padding="4dip" />
+            
+            
+        </TableRow>
+        
+        <TableRow android:background="@color/whiteText" android:layout_marginTop="1dip">
+            <EditText android:background="@null"
+            android:id="@id/city"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="20dip"
+           	android:hint="@string/city"
+           	android:nextFocusDown="@id/country"
+            android:inputType="none"
+            android:padding="4dip" />
+            
+        </TableRow>
+        <TableRow android:background="@color/whiteText" android:layout_marginTop="1dip">
+              <EditText android:background="@null"
+            android:id="@id/country"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="20dip"
+           	android:hint="@string/country"
+            android:inputType="none"
+            android:padding="4dip" />
+            
+            
+        </TableRow>
+        
+         <TableRow android:background="@color/whiteText" android:layout_marginTop="1dip">
+            <EditText android:background="@null"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="20dip"
+           	android:hint="@string/city"
+            android:inputType="none"
+            android:padding="4dip" />
+        </TableRow>
+        
+         <TableRow android:background="@color/whiteText" android:layout_marginTop="1dip">
+              <EditText android:background="@null"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="20dip"
+           	android:hint="@string/country"
+            android:inputType="none"
+            android:padding="4dip" />
+         </TableRow>
+            
+            
+        
+        
+    </TableLayout>
+    
+    <Button
+        android:layout_width="300dip"
+        android:layout_height="40dip"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="480dip"
+        android:textColor="@color/whiteText"
+        android:nextFocusDown="@id/country"
+        android:background="@color/SignInButton"
+        android:onClick="signUpBtnClicked"
+        android:text="@string/submit" />
+    
+   
+    
+
+</RelativeLayout>
