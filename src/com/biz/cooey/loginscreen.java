@@ -1,9 +1,13 @@
 package com.biz.cooey;
 
+import java.util.Arrays;
+
 import com.facebook.android.Facebook;
+import com.facebook.widget.LoginButton;
 
 import android.app.ActionBar;
 import android.content.Intent;
+import android.support.v4.app.Fragment ;
 import android.support.v4.app.FragmentActivity;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -24,6 +28,16 @@ public class loginscreen extends FragmentActivity{
 	public View onCreateView(LayoutInflater inflater, 
 	        ViewGroup container, 
 	        Bundle savedInstanceState) {
+//		private MainFragment mainFragment;
+//		 if (savedInstanceState == null) {
+//		        // Add the fragment on initial activity setup
+//		        mainFragment = new MainFragment();
+//		        getSupportFragmentManager().beginTransaction().add(android.R.id.content, mainFragment)
+//		        .commit();
+//		    } else {
+//		        // Or set the fragment from restored state info
+//		        mainFragment = (MainFragment) getSupportFragmentManager().findFragmentById(android.R.id.content);
+//		    }
 	    View view = inflater.inflate(R.layout.loginscreen, container, false);
 
 	    return view;
@@ -77,5 +91,42 @@ public class loginscreen extends FragmentActivity{
 		 
 		 
 	 }
-	
+	 
+//	 public void fbData(View view) {
+//			final String[] PERMISSIONS = new String[] { "photo_upload",
+//					"user_photos", "publish_stream", "read_stream",
+//			"offline_access", "publish_actions" };
+//			
+//			LoginButton authButton = (LoginButton) view.findViewById(R.id.authButton);
+//			authButton.setFragment(this);
+//			authButton.setReadPermissions(Arrays.asList("user_likes", "user_status"));
+//			facebook.authorize(this, PERMISSIONS, new DialogListener() {
+//
+//				public void onComplete(Bundle values) {
+//
+//					JSONObject me;
+//					try {
+//						me = new JSONObject(facebook.request("me"));
+//						Constants.FACEBOOK_USER_ACCESS_ID = facebook
+//								.getAccessToken();
+//						Constants.FACEBOOK_USER_ID = (String) me.getString("id");
+//						Constants.FACEBOOK_USER_NAME = (String) me
+//								.getString("name");
+//						Constants.fbShareEnabled = true;
+//						prefsEditor.putBoolean("fbShareEnabled", true);
+//						prefsEditor.putString("fbId", Constants.FACEBOOK_USER_ID);
+//						prefsEditor.putString("fbAccessId",
+//								Constants.FACEBOOK_USER_ACCESS_ID);
+//						prefsEditor.putString("fbUserName",
+//								Constants.FACEBOOK_USER_NAME);
+//						prefsEditor.commit();
+//						
+//					} catch (Exception e1) {
+//
+//					}
+//
+//				}
+//			}
+//	
+//}
 }

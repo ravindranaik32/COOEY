@@ -8,4 +8,5 @@
     <item name="lastName" type="id" />
     <item name="address" type="id" />
     <item name="mobile" type="id" />
+    <item name="signUpBtn" type="id" />
 </resources>

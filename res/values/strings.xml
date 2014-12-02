@@ -10,24 +10,24 @@
     
     <!-- Register step 1 strings  -->
     
-    <string name="sign_up_with_email">Sign up with Email</string>
-    <string name="facebook_app_id">1511752785741308</string>
-    <string name="sign_In_FB">Sign In with FaceBook</string>
-    <string name="sign_In_Email">Sign In with Email</string>
-    <string name="username">Username or Email</string>
-    <string name="password">Password</string>
+    <string name="sign_up_with_email" translatable="false">Sign up with Email</string>
+    <string name="facebook_app_id" translatable="false">1511752785741308</string>
+    <string name="sign_In_FB" translatable="false">Sign In with FaceBook</string>
+    <string name="sign_In_Email" translatable="false">Sign In with Email</string>
+    <string name="username" translatable="false">Username or Email</string>
+    <string name="password" translatable="false">Password</string>
     
      <!--  Register step 2 strings --> 
 	
-	<string name="firstName">First name</string>
-	<string name="lastName">Last name</string>
-	<string name="city">City</string>
-	<string name="country">Country</string>
-	<string name="address">Address</string>
-	<string name="mobile">Phone number</string>
-	<string name="email">Email ID</string>
-	<string name="age">Age</string>
-	<string name="submit">Sign up</string>
+	<string name="firstName" translatable="false">First name</string>
+	<string name="lastName" translatable="false">Last name</string>
+	<string name="city" translatable="false">City</string>
+	<string name="country" translatable="false">Country</string>
+	<string name="address" translatable="false">Address</string>
+	<string name="mobile" translatable="false">Phone number</string>
+	<string name="email" translatable="false">Email ID</string>
+	<string name="age" translatable="false">Age</string>
+	<string name="submit" translatable="false">Sign up</string>
 	
 	<!--  Color codes for app  --> 
 	<color name="theme">#60AFDF </color>

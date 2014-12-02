@@ -14,6 +14,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
+import android.widget.EditText;
 
 public class register extends FragmentActivity{
 	
@@ -67,6 +68,19 @@ public class register extends FragmentActivity{
 	public void signUpBtnClicked(View view)
 	{
 		
+	}
+	
+	public void signUpValidations(View view)
+	{
+		EditText emailText = (EditText) findViewById(R.id.email);
+		EditText userNameText = (EditText) findViewById(R.id.firstName);
+		EditText mobileText = (EditText) findViewById(R.id.mobile);
+		EditText cityText = (EditText) findViewById(R.id.city);
+		EditText countryText = (EditText) findViewById(R.id.country);
+		if(validateEmail(emailText.toString()))
+		{
+			emailText.setError("Please enter a valid email address");
+		}
 	}
 	
 	public static boolean validateEmail(String email)
