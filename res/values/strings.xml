@@ -34,4 +34,10 @@
     <color name="hashColor">#CCCACB</color>
     <color name="whiteText">#FFFFFF</color>
 	<color name="SignInButton">#3299CC</color>
+	
+	
+
+    <string name="action_settings">Settings</string>
+ 
+    
 </resources>

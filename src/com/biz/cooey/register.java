@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 
 import android.R.bool;
 import android.app.ActionBar;
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
@@ -67,7 +68,8 @@ public class register extends FragmentActivity{
 	
 	public void signUpBtnClicked(View view)
 	{
-		
+		Intent homeScreen = new Intent(getApplicationContext(), home.class);
+	    startActivity(homeScreen);
 	}
 	
 	public void signUpValidations(View view)
