@@ -13,6 +13,9 @@
     <item name="drawer_layout" type="id" />
     <item name="webView" type="id" />
     <item name="action_settings" type="id" />
+    <item name="add_BlueTooth" type="id" />
+    <item name="add_BpTracker" type="id" />
     <item name="drawer_list" type="id" />
+    <item name="bpMeter" type="id" />
     
 </resources>

@@ -105,17 +105,15 @@
     </TableLayout>
     
      <Button
-        android:id="@id/signUpBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:layout_marginTop="400dip"
-        android:background="#176CEC"
-        android:text="@string/submit"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="#fff"
+        android:id="@+id/signUpBtn"
+        android:layout_width="300dip"
+        android:layout_height="50dip"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="400dp"
+        android:textColor="@color/whiteText"
+        android:background="@color/SignInButton"
         android:onClick="signUpBtnClicked"
-        android:textStyle="bold" />
+        android:text="@string/register" />
     
    
     

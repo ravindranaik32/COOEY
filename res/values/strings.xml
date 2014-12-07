@@ -38,6 +38,8 @@
 	
 
     <string name="action_settings">Settings</string>
+    <string name="add_BpTracker">Add BP Tracker</string>
+    <string name="settings">TODO</string>
  
     
 </resources>

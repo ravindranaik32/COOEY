@@ -2,5 +2,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.biz.cooey.App_launch" >
+    
+     <item android:id="@+id/add_BpTracker"
+          android:title="@string/add_BpTracker"/>
 
 </menu>
