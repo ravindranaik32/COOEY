@@ -11,13 +11,14 @@
     <!-- Register step 1 strings  -->
     
     <string name="sign_up_with_email" translatable="false">Sign up with Email</string>
-    <string name="facebook_app_id" translatable="false">1511752785741308</string>
+    <string name="facebook_app_id" translatable="false">1387653231530691</string>
     <string name="sign_In_FB" translatable="false">Sign In with FaceBook</string>
     <string name="sign_In_Email" translatable="false">Sign In with Email</string>
     <string name="username" translatable="false">Username or Email</string>
     <string name="password" translatable="false">Password</string>
     
      <!--  Register step 2 strings --> 
+     <string name="get_started">To get started, log in using Facebook</string>
 	
 	<string name="firstName" translatable="false">First name</string>
 	<string name="lastName" translatable="false">Last name</string>
@@ -40,6 +41,11 @@
     <string name="action_settings">Settings</string>
     <string name="add_BpTracker">Add BP Tracker</string>
     <string name="settings">TODO</string>
+    <string name="medicineName">Medicine Name</string>
+    <string name="doctorName">Doctor Name</string>
+    <string name="skipScreen">Skip</string>
+    <string name="add">Add</string>
+    <string name="used_for">Used for</string>
  
     
 </resources>

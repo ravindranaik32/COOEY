@@ -17,5 +17,15 @@
     <item name="add_BpTracker" type="id" />
     <item name="drawer_list" type="id" />
     <item name="bpMeter" type="id" />
+    <item name="splashFragment" type="id" />
+    <item name="selectionFragment" type="id" />
+    <item name="medicineName" type="id" />
+    <item name="used_for" type="id"></item>
+    <item name="doctorName" type="id" />
+    <item name="skipBtn" type="id" />
+    <item name="skipBtn2" type="id" />
+    <item name="addMedicineBtn" type="id" />
+    <item name="addDoctorBtn" type="id" />
+    
     
 </resources>

@@ -11,28 +11,7 @@
         android:layout_marginTop="80dip"
         android:layout_height="wrap_content"
         android:layout_width="fill_parent">
-        <TableRow android:background="@color/whiteText">
-            <EditText android:id="@id/firstName"
-            android:background="@null"
-            android:layout_width="fill_parent"
-            android:layout_height="40dip"
-            android:layout_marginLeft="20dip"
-           	android:hint="@string/firstName"
-           	android:nextFocusDown="@id/lastName"
-            android:inputType="none"
-            android:padding="4dip" />
-           </TableRow>
-            <TableRow android:background="@color/whiteText" android:layout_marginTop="1dip">
-                 <EditText android:id="@id/lastName"
-            	android:background="@null"
-            	android:layout_width="fill_parent"
-            	android:layout_height="40dip"
-            	android:layout_marginLeft="20dip"
-           		android:hint="@string/lastName"
-           		android:nextFocusDown="@id/email"
-            	android:inputType="none"
-            	android:padding="4dip" />
-            </TableRow>
+       
             
         
         <TableRow android:background="@color/whiteText" android:layout_marginTop="1dip">
@@ -58,19 +37,9 @@
             android:padding="4dip" />
              </TableRow>
        
+    
+            
         
-        <TableRow android:background="@color/whiteText" android:layout_marginTop="1dip">
-            <EditText android:background="@null"
-            android:nextFocusDown="@id/city"
-            android:layout_width="fill_parent"
-            android:layout_height="40dip"
-            android:layout_marginLeft="20dip"
-           	android:hint="@string/address"
-            android:inputType="none"
-            android:padding="4dip" />
-            
-            
-        </TableRow>
         
         <TableRow android:background="@color/whiteText" android:layout_marginTop="1dip">
             <EditText android:background="@null"

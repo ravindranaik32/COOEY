@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-      xmlns:tools="http://schemas.android.com/tools"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent" >
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
     
-     <TableLayout android:background="@color/hashColor"
+    
+      <TableLayout android:background="@color/hashColor"
          android:gravity="center"
         android:stretchColumns="field"
         android:layout_marginTop="50dip"
@@ -16,23 +17,14 @@
             android:layout_width="fill_parent"
             android:layout_height="40dip"
             android:layout_marginLeft="20dip"
-           	android:hint="@string/medicineName"
+           	android:hint="@string/doctorName"
             android:inputType="none"
             android:padding="4dip" />
            </TableRow>
-            <TableRow android:background="@color/whiteText">
-            <EditText android:id="@id/used_for"
-            android:background="@null"
-            android:layout_width="fill_parent"
-            android:layout_height="40dip"
-            android:layout_marginLeft="20dip"
-           	android:hint="@string/used_for"
-            android:inputType="none"
-            android:padding="4dip" />
-           </TableRow>
+            
        </TableLayout>
-           
-       <Button
+         
+           <Button
         android:id="@+id/addMedicineBtn"
         android:layout_width="300dip"
         android:layout_height="40dip"
@@ -42,9 +34,10 @@
         android:background="@color/SignInButton"
         android:onClick="AddMedicineBtnClicked"
         android:text="@string/add" />
+      
  		
  		<Button
-        android:id="@+id/skipBtn"
+        android:id="@+id/skipBtn2"
         android:layout_width="300dip"
         android:layout_height="40dip"
         android:layout_marginLeft="25dp"
@@ -53,5 +46,5 @@
         android:background="@color/SignInButton"
         android:onClick="skipBtnClicked"
         android:text="@string/skipScreen" />
-   
+
 </RelativeLayout>
