@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_width="fill_parent">
         <TableRow android:background="@color/whiteText">
-            <EditText android:id="@id/medicineName"
+            <EditText android:id="@id/doctorName"
             android:background="@null"
             android:layout_width="fill_parent"
             android:layout_height="40dip"
@@ -21,18 +21,29 @@
             android:inputType="none"
             android:padding="4dip" />
            </TableRow>
+           
+        <TableRow android:background="@color/whiteText">
+            <EditText android:id="@id/doctorLocation"
+            android:background="@null"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="20dip"
+           	android:hint="@string/doctor_Location"
+            android:inputType="none"
+            android:padding="4dip" />
+           </TableRow>
             
        </TableLayout>
          
            <Button
-        android:id="@+id/addMedicineBtn"
+        android:id="@+id/addDoctorBtn"
         android:layout_width="300dip"
         android:layout_height="40dip"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="200dp"
         android:textColor="@color/whiteText"
         android:background="@color/SignInButton"
-        android:onClick="AddMedicineBtnClicked"
+        android:onClick="AddDoctorBtnClicked"
         android:text="@string/add" />
       
  		

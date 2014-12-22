@@ -12,8 +12,6 @@
         android:layout_height="wrap_content"
         android:layout_width="fill_parent">
        
-            
-        
         <TableRow android:background="@color/whiteText" android:layout_marginTop="1dip">
             <EditText android:id="@id/email"
             android:background="@null"
@@ -21,14 +19,13 @@
             android:layout_height="40dip"
             android:layout_marginLeft="20dip"
            	android:hint="@string/email"
-           	android:nextFocusDown="@id/mobile"
             android:inputType="textEmailAddress"
             android:padding="4dip" />
              </TableRow>
              
         <TableRow android:background="@color/whiteText" android:layout_marginTop="1dip">
-             <EditText android:background="@null"
-            android:nextFocusDown="@id/address"
+             <EditText android:id="@id/mobile"
+            android:background="@null"
             android:layout_width="fill_parent"
             android:layout_height="40dip"
             android:layout_marginLeft="20dip"
@@ -37,10 +34,6 @@
             android:padding="4dip" />
              </TableRow>
        
-    
-            
-        
-        
         <TableRow android:background="@color/whiteText" android:layout_marginTop="1dip">
             <EditText android:background="@null"
             android:id="@id/city"
@@ -68,10 +61,20 @@
         
          
             
-            
+       
         
         
+     
     </TableLayout>
+    
+     <Spinner android:background="@color/whiteText"
+    		android:id="@+id/blood_spinner"
+    		android:layout_width="fill_parent"
+    		android:layout_marginTop="300dip"
+    		android:layout_marginLeft="25dp"
+    		android:entries="@array/blood_groups"
+       		android:prompt="@string/blood_prompt"
+    		android:layout_height="wrap_content" />
     
      <Button
         android:id="@+id/signUpBtn"

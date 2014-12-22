@@ -47,7 +47,7 @@ public class onboarding extends FragmentActivity {
     public void skipBtnClicked(View view){
     	 try
 		 {
-    		 System.out.println("You are skipping view");
+    		
 			 Intent addDoctorName = new Intent(getApplicationContext(), doctorname.class);
 		     startActivity(addDoctorName);
 		 }
@@ -69,8 +69,11 @@ public class onboarding extends FragmentActivity {
     		if(usedFor.length() != 0)
     		{
     			
-    			Void params = null;
-				new FetchTask().execute(params);
+//    			Void params = null;
+//				new FetchTask().execute(params);
+    			
+    			Intent doctorScreen = new Intent(getApplicationContext(), doctorname.class);
+			    startActivity(doctorScreen);
     			
     		}
     		else

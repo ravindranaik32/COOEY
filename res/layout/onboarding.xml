@@ -10,7 +10,7 @@
         android:layout_marginTop="50dip"
         android:layout_height="wrap_content"
         android:layout_width="fill_parent">
-        <TableRow android:background="@color/whiteText">
+        <TableRow android:background="@color/whiteText" android:layout_marginTop="1dip">
             <EditText android:id="@id/medicineName"
             android:background="@null"
             android:layout_width="fill_parent"
@@ -20,7 +20,7 @@
             android:inputType="none"
             android:padding="4dip" />
            </TableRow>
-            <TableRow android:background="@color/whiteText">
+            <TableRow android:background="@color/whiteText" android:layout_marginTop="1dip">
             <EditText android:id="@id/used_for"
             android:background="@null"
             android:layout_width="fill_parent"

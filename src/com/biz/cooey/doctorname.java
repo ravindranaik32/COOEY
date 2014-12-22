@@ -19,7 +19,7 @@ public class doctorname extends FragmentActivity{
 	public void skipBtnClicked(View view){
    	 try
 		 {
-			 Intent addDoctorName = new Intent(getApplicationContext(), doctorname.class);
+			 Intent addDoctorName = new Intent(getApplicationContext(), home.class);
 		     startActivity(addDoctorName);
 		 }
 		 catch(Exception ex)
@@ -31,6 +31,8 @@ public class doctorname extends FragmentActivity{
    public void AddDoctorBtnClicked(View view)
    {
 	   	System.out.println("You are here in add doctor");
+	   	Intent homeScreen = new Intent(getApplicationContext(), home.class);
+	    startActivity(homeScreen);
   
    }
 

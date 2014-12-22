@@ -25,7 +25,9 @@
     <item name="skipBtn" type="id" />
     <item name="skipBtn2" type="id" />
     <item name="addMedicineBtn" type="id" />
+    <item name="blood_spinner" type="id" />
     <item name="addDoctorBtn" type="id" />
+     <item name="doctorLocation" type="id" />
     
     
 </resources>

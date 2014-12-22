@@ -14,16 +14,7 @@
         android:layout_marginLeft="25dp"
         />
 
-    <Button
-        android:id="@+id/emailSignUp"
-        android:layout_width="300dip"
-        android:layout_height="50dip"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="235dp"
-        android:textColor="@color/whiteText"
-        android:background="@color/SignInButton"
-        android:onClick="SignUpWithEmail"
-        android:text="@string/sign_In_Email" />
+    
     	
 
 </RelativeLayout>

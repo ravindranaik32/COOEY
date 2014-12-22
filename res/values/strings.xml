@@ -11,9 +11,8 @@
     <!-- Register step 1 strings  -->
     
     <string name="sign_up_with_email" translatable="false">Sign up with Email</string>
-    <string name="facebook_app_id" translatable="false">1387653231530691</string>
+    <string name="facebook_app_id" translatable="false">1528675480748018</string>
     <string name="sign_In_FB" translatable="false">Sign In with FaceBook</string>
-    <string name="sign_In_Email" translatable="false">Sign In with Email</string>
     <string name="username" translatable="false">Username or Email</string>
     <string name="password" translatable="false">Password</string>
     
@@ -43,9 +42,25 @@
     <string name="settings">TODO</string>
     <string name="medicineName">Medicine Name</string>
     <string name="doctorName">Doctor Name</string>
+    <string name="doctor_Location">Doctors Location</string>
     <string name="skipScreen">Skip</string>
     <string name="add">Add</string>
     <string name="used_for">Used for</string>
+    
+    
+    <string name="blood_prompt">Choose your blood group</string>
+    
+    <string-array name="blood_groups">
+        <item>A +</item>
+        <item>A -</item>
+        <item>B +</item>
+        <item>B -</item>
+        <item>O +</item>
+        <item>O -</item>
+        <item>AB +</item>
+        <item>AB -</item>
+        <item>Others</item>
+    </string-array>
  
     
 </resources>

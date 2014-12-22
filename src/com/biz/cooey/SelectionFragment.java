@@ -25,7 +25,7 @@ public class SelectionFragment extends Fragment{
 	{
 		 try
 		 {
-			 Intent newUser = new Intent(getActivity().getApplicationContext(), onboarding.class);
+			 Intent newUser = new Intent(getActivity().getApplicationContext(), register.class);
 		     startActivity(newUser);
 		 }
 		 catch(Exception ex)
