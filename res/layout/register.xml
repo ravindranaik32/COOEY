@@ -70,11 +70,12 @@
      <Spinner android:background="@color/whiteText"
     		android:id="@+id/blood_spinner"
     		android:layout_width="fill_parent"
+    		android:layout_marginRight="25dip"
+    		android:layout_height="40dip"
     		android:layout_marginTop="300dip"
     		android:layout_marginLeft="25dp"
     		android:entries="@array/blood_groups"
-       		android:prompt="@string/blood_prompt"
-    		android:layout_height="wrap_content" />
+       		android:prompt="@string/blood_prompt" />
     
      <Button
         android:id="@+id/signUpBtn"

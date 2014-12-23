@@ -20,6 +20,7 @@ import android.R.bool;
 import android.app.ActionBar;
 import android.app.AlertDialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
@@ -38,7 +39,7 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 public class register extends FragmentActivity{
-	
+	public static final String PREFS_NAME = "MyPrefsFile";
 	private static Pattern pattern;
     private static Matcher matcher;
     //Email Pattern
@@ -73,6 +74,17 @@ public class register extends FragmentActivity{
         }
         
         setContentView(R.layout.register);
+        SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
+        boolean value = settings.getBoolean("userRegistered", true);
+        if(value != true)
+        {
+        	System.out.println("You have not succesfully registered");
+        }
+        else
+        {
+        	Intent homeScreen = new Intent(getApplicationContext(), home.class);
+        	startActivity(homeScreen);
+        }
         Spinner sp=(Spinner)findViewById(R.id.blood_spinner);
        
         sp.setOnItemSelectedListener(new OnItemSelectedListener() {
@@ -80,8 +92,8 @@ public class register extends FragmentActivity{
 			public void onItemSelected(AdapterView<?> av, View v,
 					int position, long itemId) {
 				// TODO Auto-generated method stub
-				String item=av.getItemAtPosition(position).toString();
-				Toast.makeText(getApplicationContext(),"Selected Item is "+item,Toast.LENGTH_LONG).show();
+				
+				
 			}
 
 			public void onNothingSelected(AdapterView<?> av) {
@@ -143,7 +155,10 @@ public class register extends FragmentActivity{
 //				registerUser(mobileText.getText().toString(), emailText.getText().toString(),cityText.getText().toString(), countryText.getText().toString(),blood_group, "M","08-01-1991" );
 //				
 				Intent onboardingScreen = new Intent(getApplicationContext(), onboarding.class);
+				SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
+				boolean value = settings.getBoolean("userRegistered", true);
 			    startActivity(onboardingScreen);
+			    
 			}
 		}
 		

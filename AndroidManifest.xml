@@ -34,6 +34,11 @@
          <activity android:name=".onboarding"></activity>
         <activity android:name=".drawer_layout"></activity>
          <activity android:name=".doctorname"></activity>
+         <activity android:name=".scan_list_item"></activity>
+         <activity android:name=".activity_add_device"></activity>
+         <activity android:name=".activity_pair_results"></activity>
+         <activity android:name=".activity_spinner_test"></activity>
+          <activity android:name=".AddDeviceActivity"></activity>
         <meta-data android:value="@string/facebook_app_id" android:name="com.facebook.sdk.ApplicationId"/>
     </application>
 

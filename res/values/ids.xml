@@ -27,7 +27,11 @@
     <item name="addMedicineBtn" type="id" />
     <item name="blood_spinner" type="id" />
     <item name="addDoctorBtn" type="id" />
-     <item name="doctorLocation" type="id" />
+    <item name="doctorLocation" type="id" />
+     
+     <item name="s_NameTextView" type="id" />
+     <item name="s_AddressTextView" type="id" />
+     <item name="s_PairTextView" type="id" />
     
     
 </resources>
